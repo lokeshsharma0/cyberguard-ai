@@ -518,7 +518,7 @@
 </header>
 
 <!-- HuggingFace Token Setup -->
-<div id="setup-banner">
+<div id="setup-banner" style="display:none;">
   <span>🔑 HF Token:</span>
   <input
     type="password"
@@ -588,7 +588,7 @@ You provide clear, accurate, and detailed answers about:
 Always explain concepts clearly with examples where helpful.`;
 
   // ── State ────────────────────────────────────────────────────
-  let hfToken      = localStorage.getItem("hf_token") || "";
+  let hfToken      = localStorage.getItem("hf_token") || "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";
   let isWaiting    = false;
   let chatHistory  = [];
 
